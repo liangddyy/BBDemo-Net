@@ -1117,7 +1117,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1491817871}
-  - component: {fileID: 1491817870}
   m_Layer: 0
   m_Name: '[MapManager]'
   m_TagString: Untagged
@@ -1125,18 +1124,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1491817870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114173873485456788, guid: 89c2788c78a82ac4a8d6fca415f69776,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1491817869}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b19aff51390c91040b9cf58efcd70390, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1491817871
 Transform:
   m_ObjectHideFlags: 0
@@ -1256,6 +1243,7 @@ GameObject:
   - component: {fileID: 1814826801}
   - component: {fileID: 1814826800}
   - component: {fileID: 1814826799}
+  - component: {fileID: 1814826803}
   m_Layer: 0
   m_Name: First Person Controller
   m_TagString: FPSController
@@ -1388,6 +1376,17 @@ CharacterController:
   m_SkinWidth: 0.05
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1814826803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1814826797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b19aff51390c91040b9cf58efcd70390, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1902853248
 GameObject:
   m_ObjectHideFlags: 0
